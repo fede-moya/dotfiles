@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+# Add Ruby bin to path
+export PATH="`ruby -e 'puts Gem.user_dir'`/bin:$PATH"
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/federicomoya/.oh-my-zsh"
 
@@ -109,11 +110,14 @@ alias gp="git pull"
 alias gpsh="git push"
 alias gcl="git clean"
 alias gl="git log"
+alias gf="git fetch"
 # docker-compose
 alias d-c="docker-compose"
 alias dcd="docker-compose down"
 alias dcs="docker-compose stop"
 alias dcps="docker-compose ps"
+# docker
+alias d="docker"
 # codeclimate specifics
 alias restart-docker-sync="docker-sync stop && docker-sync clean && docker-sync start"
 alias start-cc-sync="docker-compose --file docker-compose.yml --file docker-compose.docker-sync.yml up"
