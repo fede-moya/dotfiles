@@ -24,3 +24,6 @@ As a complement for file browsing I like using the old `tree` command. Which in 
 brew install tree
 ```
 
+### Notes, Docs and Todo lists
+Currently using notion for this https://www.notion.so/
+Using the desktop version.
