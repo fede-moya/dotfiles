@@ -1,5 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype on                  " required
+filetype indent on
 
 " Set syntax highlighting on
 syntax on
@@ -37,3 +38,6 @@ set shiftwidth=2
 set smartindent
 
 set relativenumber
+
+
+set directory^=$HOME/.vim/tmp//
