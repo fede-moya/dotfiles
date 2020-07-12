@@ -18,7 +18,7 @@ I use ZSH. Configuration for the ZSH shell can be found under the `zsh` folder.
 
 ### File browsing
 
-As a complement for file browsing I like using the old `tree` command. Which in mac you can easily install entering:
+As a complement for file browsing I like using the old `tree` command. Since modern Mac operative systems don't have this tool installed by default, we have to install it manually, what can be achieved easily making use of brew.
 
 ```
 brew install tree
