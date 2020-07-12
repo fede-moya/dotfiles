@@ -30,4 +30,8 @@ set nobackup
 
 set path+=**
 
+" Indentation settings
 set autoindent
+set expandtab
+set shiftwidth=2
+set smartindent
