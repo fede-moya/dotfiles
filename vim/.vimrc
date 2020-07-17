@@ -24,8 +24,6 @@ set incsearch
 set ignorecase
 set smartcase
 
-" turn on line numbering
-set number
 
 set nobackup
 
