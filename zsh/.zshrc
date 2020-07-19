@@ -122,3 +122,4 @@ alias d="docker"
 # codeclimate specifics
 alias restart-docker-sync="docker-sync stop && docker-sync clean && docker-sync start"
 alias start-cc-sync="docker-compose --file docker-compose.yml --file docker-compose.docker-sync.yml up"
+alias c="clear"
