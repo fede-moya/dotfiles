@@ -97,6 +97,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # git
+alias g="git"
 alias gs="git status"
 alias gb="git branch"
 alias gco="git checkout"

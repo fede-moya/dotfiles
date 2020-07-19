@@ -39,3 +39,10 @@ set relativenumber
 
 
 set directory^=$HOME/.vim/tmp//
+
+
+" vim-ack plugin for searching https://vimawesome.com/plugin/vim-ack
+call plug#begin('~/.vim/plugged')
+Plug 'mileszs/ack.vim'
+call plug#end()
+
