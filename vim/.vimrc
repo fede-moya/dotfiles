@@ -36,6 +36,10 @@ set shiftwidth=2
 set smartindent
 
 set relativenumber
+set nowrap
+set noswapfile
+set incsearch
+
 
 
 set directory^=$HOME/.vim/tmp//
