@@ -35,7 +35,9 @@ set expandtab
 set shiftwidth=2
 set smartindent
 
+set number                              " Line numbers
 set relativenumber
+set cursorline                          " Enable highlighting of the current line
 set nowrap
 set noswapfile
 set incsearch
@@ -48,5 +50,6 @@ set directory^=$HOME/.vim/tmp//
 " vim-ack plugin for searching https://vimawesome.com/plugin/vim-ack
 call plug#begin('~/.vim/plugged')
 Plug 'mileszs/ack.vim'
+Plug 'slim-template/vim-slim'
 call plug#end()
 
