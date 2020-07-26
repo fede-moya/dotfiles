@@ -2,8 +2,9 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Add Ruby bin to path
 export PATH="`ruby -e 'puts Gem.user_dir'`/bin:$PATH"
+export LC_ALL=en_US.UTF-8
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/federicomoya/.oh-my-zsh"
+export ZSH="/Users/fede/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -113,7 +114,7 @@ alias gcl="git clean"
 alias gl="git log"
 alias gf="git fetch"
 # docker-compose
-alias d-c="docker-compose"
+alias dc="docker-compose"
 alias dcd="docker-compose down"
 alias dcs="docker-compose stop"
 alias dcps="docker-compose ps"
@@ -123,3 +124,6 @@ alias d="docker"
 alias restart-docker-sync="docker-sync stop && docker-sync clean && docker-sync start"
 alias start-cc-sync="docker-compose --file docker-compose.yml --file docker-compose.docker-sync.yml up"
 alias c="clear"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
