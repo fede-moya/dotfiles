@@ -51,5 +51,6 @@ set directory^=$HOME/.vim/tmp//
 call plug#begin('~/.vim/plugged')
 Plug 'mileszs/ack.vim'
 Plug 'slim-template/vim-slim'
+Plug 'elzr/vim-json'
 call plug#end()
 

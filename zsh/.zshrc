@@ -125,5 +125,8 @@ alias restart-docker-sync="docker-sync stop && docker-sync clean && docker-sync 
 alias start-cc-sync="docker-compose --file docker-compose.yml --file docker-compose.docker-sync.yml up"
 alias c="clear"
 
+# vim alias
+alias v="vim"
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
