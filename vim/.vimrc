@@ -48,6 +48,12 @@ set directory^=$HOME/.vim/tmp//
 
 
 " vim-ack plugin for searching https://vimawesome.com/plugin/vim-ack
+" install vim-plug if not already present
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 call plug#begin('~/.vim/plugged')
 Plug 'mileszs/ack.vim'
 Plug 'slim-template/vim-slim'
