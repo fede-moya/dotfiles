@@ -113,6 +113,7 @@ alias gpsh="git push"
 alias gcl="git clean"
 alias gl="git log"
 alias gf="git fetch"
+alias gac="git add . && git commit -m"
 # docker-compose
 alias dc="docker-compose"
 alias dcd="docker-compose down"
