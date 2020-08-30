@@ -4,7 +4,7 @@
 export PATH="`ruby -e 'puts Gem.user_dir'`/bin:$PATH"
 export LC_ALL=en_US.UTF-8
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/fede/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
