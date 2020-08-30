@@ -6,7 +6,7 @@ This repository serves as the documentation for all the setup that I use for all
 #### Vim
 The configuration is under the `vim` folder
 
-Currently using `vim-plug` as plugin manager. https://github.com/junegunn/vim-plug
+Currently using [vim-plug](https://github.com/junegunn/vim-plug) as plugin manager, it should be automatically installed when sourcing the presented vim configuratin file. 
 
 #### Terminal
 I use the iTerm2. No specific configuration for the terminal currently using defualt themes an default configuration settings. 
