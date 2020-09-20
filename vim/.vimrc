@@ -47,7 +47,6 @@ set incsearch
 set directory^=$HOME/.vim/tmp//
 
 
-" vim-ack plugin for searching https://vimawesome.com/plugin/vim-ack
 " install vim-plug if not already present
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -55,6 +54,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin('~/.vim/plugged')
+" vim-ack plugin for searching https://github.com/mileszs/ack.vim
 Plug 'mileszs/ack.vim'
 Plug 'slim-template/vim-slim'
 Plug 'elzr/vim-json'
