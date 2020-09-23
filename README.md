@@ -8,6 +8,10 @@ The configuration is under the `vim` folder
 
 Currently using [vim-plug](https://github.com/junegunn/vim-plug) as plugin manager, it should be automatically installed when sourcing the presented vim configuratin file. 
 
+#### VS CODE
+Currently using the vim plugin for editing text
+https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode
+
 #### Terminal
 I use the iTerm2. No specific configuration for the terminal currently using defualt themes an default configuration settings. 
 
