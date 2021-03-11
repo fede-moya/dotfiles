@@ -5,6 +5,7 @@ export PATH="`ruby -e 'puts Gem.user_dir'`/bin:$PATH"
 export LC_ALL=en_US.UTF-8
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export EDITOR=vim
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -129,6 +130,13 @@ alias c="clear"
 
 # vim alias
 alias v="vim"
+
+# ruby aliases
+alias bi="bundle install"
+
+# Make file aliases
+alias m="make"
+alias mi="make image"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
