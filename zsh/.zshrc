@@ -157,3 +157,10 @@ ccanalyze()
   --volume /tmp/cc:/tmp/cc \
   codeclimate/codeclimate analyze $@
 }
+
+cc-app-sync()
+{
+  docker-compose \
+  --file docker-compose.yml \
+  --file docker-compose.docker-sync.yml $@
+}
