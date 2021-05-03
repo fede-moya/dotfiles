@@ -164,3 +164,6 @@ cc-app-sync()
   --file docker-compose.yml \
   --file docker-compose.docker-sync.yml $@
 }
+
+# Notes alias
+alias notes="cd ~/Documents/notes && vim ."
